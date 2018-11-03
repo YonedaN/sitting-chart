@@ -63,5 +63,10 @@ namespace test
         {
 
         }
+
+        private void dataGridView1_CellContentClick_2(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
