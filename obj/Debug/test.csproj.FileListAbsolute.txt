@@ -22,3 +22,17 @@ C:\Users\narum\dev\sitting-chart\test\obj\Debug\test.csproj.GenerateResource.cac
 C:\Users\narum\dev\sitting-chart\test\obj\Debug\test.csproj.CoreCompileInputs.cache
 C:\Users\narum\dev\sitting-chart\test\obj\Debug\test.exe
 C:\Users\narum\dev\sitting-chart\test\obj\Debug\test.pdb
+C:\Users\chiwata\dev\sitting-chart\test\bin\Debug\test.exe.config
+C:\Users\chiwata\dev\sitting-chart\test\bin\Debug\test.exe
+C:\Users\chiwata\dev\sitting-chart\test\bin\Debug\test.pdb
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Form1.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Form2.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Form3.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Form4.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Form5.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.csproj.GenerateResource.cache
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.exe
+C:\Users\chiwata\dev\sitting-chart\test\obj\Debug\test.pdb
