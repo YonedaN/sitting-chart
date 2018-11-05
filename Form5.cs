@@ -12,10 +12,7 @@ namespace test
 {
     public partial class Form5 : Form
     {
-        public Form5()
-        {
-            InitializeComponent();
-        }
+        public Form5() => InitializeComponent();
 
         private void label17_Click(object sender, EventArgs e)
         {
