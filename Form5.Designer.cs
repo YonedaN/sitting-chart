@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label17 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.shiftsheet = new System.Windows.Forms.ComboBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,14 +55,14 @@
             this.label17.Text = "シフト入力フォーム";
             this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
-            // comboBox1
+            // shiftsheet
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(3, 24);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 20);
-            this.comboBox1.TabIndex = 98;
-            this.comboBox1.Text = "【名前の入力】";
+            this.shiftsheet.FormattingEnabled = true;
+            this.shiftsheet.Location = new System.Drawing.Point(3, 24);
+            this.shiftsheet.Name = "shiftsheet";
+            this.shiftsheet.Size = new System.Drawing.Size(121, 20);
+            this.shiftsheet.TabIndex = 98;
+            this.shiftsheet.Text = "【名前の入力】";
             // 
             // tableLayoutPanel1
             // 
@@ -146,7 +146,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.label17);
-            this.flowLayoutPanel1.Controls.Add(this.comboBox1);
+            this.flowLayoutPanel1.Controls.Add(this.shiftsheet);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 23);
@@ -174,7 +174,7 @@
         #endregion
 
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox shiftsheet;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
