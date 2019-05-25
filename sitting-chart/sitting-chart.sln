@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.452
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sitting-chart", "sitting-chart.csproj", "{1D9C4EA5-282E-4F6D-BC01-18EBCFBA26B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sitting-chart", "sitting-chart\sitting-chart.csproj", "{48432832-C31B-4B46-B6B5-9F187883DD78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D9C4EA5-282E-4F6D-BC01-18EBCFBA26B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D9C4EA5-282E-4F6D-BC01-18EBCFBA26B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D9C4EA5-282E-4F6D-BC01-18EBCFBA26B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D9C4EA5-282E-4F6D-BC01-18EBCFBA26B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48432832-C31B-4B46-B6B5-9F187883DD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48432832-C31B-4B46-B6B5-9F187883DD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48432832-C31B-4B46-B6B5-9F187883DD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48432832-C31B-4B46-B6B5-9F187883DD78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C3DCBC7F-A6AA-4E59-9036-CF1A4867480E}
+		SolutionGuid = {A3017FCF-46BF-4C25-8911-6E6AC2583E7C}
 	EndGlobalSection
 EndGlobal
