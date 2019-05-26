@@ -1,0 +1,13 @@
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\bin\Debug\sitting-chart.exe.config
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\bin\Debug\sitting-chart.exe
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\bin\Debug\sitting-chart.pdb
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting-chart.csprojAssemblyReference.cache
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form1.resources
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form2.resources
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Properties.Resources.resources
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting-chart.csproj.GenerateResource.cache
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting-chart.csproj.CoreCompileInputs.cache
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting-chart.exe
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting-chart.pdb
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form3.resources
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form4.resources

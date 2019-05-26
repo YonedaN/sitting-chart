@@ -144,38 +144,76 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "国語",
+            "社会",
+            "数学",
+            "理科",
+            "英語",
+            "その他"});
             this.comboBox1.Location = new System.Drawing.Point(399, 164);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 20);
             this.comboBox1.TabIndex = 21;
+            this.comboBox1.Text = "該当なし";
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "国語",
+            "社会",
+            "数学",
+            "理科",
+            "英語",
+            "その他"});
             this.comboBox2.Location = new System.Drawing.Point(399, 195);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 20);
             this.comboBox2.TabIndex = 22;
+            this.comboBox2.Text = "該当なし";
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "国語",
+            "社会",
+            "数学",
+            "理科",
+            "英語",
+            "その他"});
             this.comboBox3.Location = new System.Drawing.Point(399, 227);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 20);
             this.comboBox3.TabIndex = 23;
+            this.comboBox3.Text = "該当なし";
             // 
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "国語",
+            "社会",
+            "数学",
+            "理科",
+            "英語",
+            "その他"});
             this.comboBox4.Location = new System.Drawing.Point(399, 257);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 20);
             this.comboBox4.TabIndex = 24;
+            this.comboBox4.Text = "該当なし";
             // 
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
             this.comboBox5.Location = new System.Drawing.Point(89, 227);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 20);
@@ -184,6 +222,12 @@
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
             this.comboBox6.Location = new System.Drawing.Point(89, 258);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 20);
@@ -282,6 +326,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
