@@ -69,6 +69,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button5
@@ -462,11 +464,44 @@
             this.label1.TabIndex = 77;
             this.label1.Text = "生徒登録情報";
             // 
+            // comboBox11
+            // 
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "高3",
+            "高2",
+            "高1",
+            "中3",
+            "中2",
+            "中1",
+            "小6",
+            "小5",
+            "小4",
+            "小3",
+            "小2",
+            "小1"});
+            this.comboBox11.Location = new System.Drawing.Point(492, 111);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(71, 20);
+            this.comboBox11.TabIndex = 118;
+            this.comboBox11.Text = "中3";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(424, 115);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(29, 12);
+            this.label19.TabIndex = 119;
+            this.label19.Text = "学年";
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 431);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.comboBox8);
@@ -509,7 +544,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form6";
-            this.Text = "Form6";
+            this.Text = "s";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -558,5 +593,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.Label label19;
     }
 }

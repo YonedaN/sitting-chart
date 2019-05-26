@@ -287,7 +287,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 24);
             this.label1.TabIndex = 37;
-            this.label1.Text = "教員登録情報";
+            this.label1.Text = "講師登録情報";
             // 
             // Form5
             // 

@@ -62,7 +62,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "教員情報入力画面";
+            this.label1.Text = "講師情報入力画面";
             // 
             // button1
             // 
