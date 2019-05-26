@@ -133,6 +133,7 @@
             this.button4.TabIndex = 63;
             this.button4.Text = "月間カレンダー入力";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // comboBox6
             // 

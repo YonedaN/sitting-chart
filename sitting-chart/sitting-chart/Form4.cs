@@ -31,8 +31,20 @@ namespace sitting_chart
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+            Form7 form7 = new Form7();
+            form7.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.Show();
         }
     }
 }

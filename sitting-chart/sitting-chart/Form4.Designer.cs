@@ -42,9 +42,9 @@
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.Location = new System.Drawing.Point(43, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 16);
+            this.label1.Size = new System.Drawing.Size(136, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "教員入力画面";
+            this.label1.Text = "新規教員入力画面";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -53,9 +53,9 @@
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 12F);
             this.label2.Location = new System.Drawing.Point(43, 141);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 16);
+            this.label2.Size = new System.Drawing.Size(136, 16);
             this.label2.TabIndex = 1;
-            this.label2.Text = "生徒入力画面";
+            this.label2.Text = "新規生徒入力画面";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -78,6 +78,7 @@
             this.label4.Size = new System.Drawing.Size(104, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "教員登録情報";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -88,6 +89,7 @@
             this.label5.Size = new System.Drawing.Size(104, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "生徒登録情報";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
