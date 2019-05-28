@@ -16,5 +16,19 @@ namespace sitting_chart
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // 削除ボタン列かどうかを確認 
+            if (e.ColumnIndex == this.dataGridView1.Columns["delete"].Index)
+            {
+                if (DialogResult.Yes == MessageBox.Show("削除しますか", "確認",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                {
+                    // 削除 
+                    this.dataGridView1.Rows.RemoveAt(e.RowIndex);
+                }
+            }
+        }
     }
 }

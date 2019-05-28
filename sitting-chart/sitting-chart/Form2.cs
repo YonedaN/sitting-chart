@@ -67,5 +67,11 @@ namespace sitting_chart
             Form3 form3 = new Form3();
             form3.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10();
+            form10.Show();
+        }
     }
 }
