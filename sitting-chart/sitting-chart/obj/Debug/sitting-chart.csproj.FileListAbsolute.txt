@@ -17,3 +17,4 @@ C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart
 C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form8.resources
 C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form10.resources
 C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form9.resources
+C:\Users\narum\sitting-chart\sitting-chart\sitting-chart\obj\Debug\sitting_chart.Form11.resources

@@ -25,7 +25,6 @@ namespace sitting_chart
                 if (DialogResult.Yes == MessageBox.Show("削除しますか", "確認",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question))
                 {
-                    // 削除 
                     this.dataGridView1.Rows.RemoveAt(e.RowIndex);
                 }
             }

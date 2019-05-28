@@ -73,5 +73,10 @@ namespace sitting_chart
             Form10 form10 = new Form10();
             form10.Show();
         }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

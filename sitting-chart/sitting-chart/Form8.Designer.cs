@@ -35,9 +35,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.grade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name_student = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.name_student = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.grade = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name_school = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,7 +102,8 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.delete,
             this.name_student,
-            this.grade});
+            this.grade,
+            this.name_school});
             this.dataGridView1.Location = new System.Drawing.Point(33, 143);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 21;
@@ -108,26 +111,41 @@
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // grade
+            // delete
             // 
-            this.grade.HeaderText = "学年";
-            this.grade.Name = "grade";
+            this.delete.HeaderText = "削除";
+            this.delete.Name = "delete";
             // 
             // name_student
             // 
             this.name_student.HeaderText = "名前";
             this.name_student.Name = "name_student";
             // 
-            // delete
+            // grade
             // 
-            this.delete.HeaderText = "削除";
-            this.delete.Name = "delete";
+            this.grade.HeaderText = "学年";
+            this.grade.Name = "grade";
+            // 
+            // name_school
+            // 
+            this.name_school.HeaderText = "学校名";
+            this.name_school.Name = "name_school";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(187, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "学校順";
             // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 729);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -155,5 +173,7 @@
         private System.Windows.Forms.DataGridViewButtonColumn delete;
         private System.Windows.Forms.DataGridViewTextBoxColumn name_student;
         private System.Windows.Forms.DataGridViewTextBoxColumn grade;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name_school;
+        private System.Windows.Forms.Label label5;
     }
 }

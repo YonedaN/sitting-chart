@@ -71,6 +71,8 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label16
@@ -477,7 +479,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(425, 112);
+            this.label19.Location = new System.Drawing.Point(425, 127);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(29, 12);
             this.label19.TabIndex = 121;
@@ -499,17 +501,35 @@
             "小3",
             "小2",
             "小1"});
-            this.comboBox11.Location = new System.Drawing.Point(493, 108);
+            this.comboBox11.Location = new System.Drawing.Point(493, 123);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(71, 20);
             this.comboBox11.TabIndex = 120;
             this.comboBox11.Text = "中3";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(493, 98);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 19);
+            this.textBox9.TabIndex = 123;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(425, 98);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(41, 12);
+            this.label20.TabIndex = 124;
+            this.label20.Text = "学校名";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 431);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.button5);
@@ -604,5 +624,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label20;
     }
 }
