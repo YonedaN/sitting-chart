@@ -9,27 +9,27 @@ namespace sitting_chart
 {
     class Class1
     {
-        static SQLiteConnection _conn = null;
+        static SQLiteConnection con = null;
 
-        static void Main(string[] args) {
-
-        }
 
         /// データベースに接続
         private static void ConnectionOpen()
         {
-            _conn = new SQLiteConnection();
-            _conn.ConnectionString = "Data Source=testdb.db;Version=3;";
-            _conn.Open();
+            con = new SQLiteConnection();
+            con.ConnectionString = "Data Source=testdb.db;Version=3;";
+            con.Open();
         }
 
 
         /// テーブルの作成
         private static void CreateTable(){
-            SQLiteCommand command = _conn.CreateCommand();
+            SQLiteCommand command = con.CreateCommand();
             command.CommandText = "CREATE TABLE Teacher (id AUTOINCREMENT, name char(15), lank int, ability int, secility int, weak int, workdays int)";
             command.CommandText = "CREATE TABLE Student (id AUTOINCREMENT, name char(15))";
-            command.CommandText = "CREATE TABLE Class (students.id int, subject.id int,classhours int)";
+            command.CommandText = "CREATE TABLE Hours (students.id int, subject.id int,classhours int)";
+            command.CommandText = "CREATE TABLE Subject(id AUTOINCREMENT)";
+            command.CommandText = "CREATE TABLE Timetable(id AUTOINCREMENT,time datatime)";
+            command.CommandText = "CREATE TABLE Class(id AUTOINCREMENT,teachers.id int, students.id int, subject.id int, timetable.id int)";
             command.ExecuteNonQuery();
         }
 
@@ -38,7 +38,7 @@ namespace sitting_chart
         {
             for (int i = 0; i < 10; i++)
             {
-                SQLiteCommand command = _conn.CreateCommand();
+                SQLiteCommand command = con.CreateCommand();
                 command.CommandText = "INSERT INTO Test (text) VALUES (@1)";
                 SQLiteParameter parameter = command.CreateParameter();
                 parameter.ParameterName = "@1";
@@ -51,8 +51,8 @@ namespace sitting_chart
         /// レコードを取得
         private static void SelectRecord(){
             // 全データの取得
-            SQLiteCommand command = _conn.CreateCommand();
-            command.CommandText = "SELECT * FROM Test";
+            SQLiteCommand command = con.CreateCommand();
+            command.CommandText = "SELECT * FROM ";
             var reader = command.ExecuteReader();
 
             while (reader.Read()){
@@ -64,7 +64,7 @@ namespace sitting_chart
 
         /// データベース接続を閉じる
         private static void ConnectionClose(){
-            _conn.Close();
+            con.Close();
         }
 }
 }
